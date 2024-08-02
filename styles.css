@@ -649,6 +649,37 @@ section .title::after {
   color: crimson;
   background: none;
 }
+/* social media styling */
+.socialmediaicons .title::after {
+  content: "Follow me on";
+}
+.socialmediaicons .icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.socialmediaicons .icons .fa-brands {
+  color: black;
+}
+.socialmediaicons .facebookicon .fa-brands:hover {
+  color: crimson;
+  transform: scale(1.05);
+}
+.socialmediaicons .instagramicon .fa-brands:hover {
+  color: crimson;
+  transform: scale(1.05);
+}
+.socialmediaicons .linkedinicon .fa-brands:hover {
+  color: crimson;
+  transform: scale(1.05);
+}
+.socialmediaicons .githubicon .fa-brands:hover {
+  color: crimson;
+  transform: scale(1.05);
+}
 /* footer section styling */
 footer {
   background: #111;
